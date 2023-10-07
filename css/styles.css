@@ -1,0 +1,34 @@
+:root {
+    --bg-c: #000;
+    --main-text-c: #FFF;
+    --list-title-c: #999;
+    --transp-c: color: rgba(255, 255, 255, 0.70);
+    --additional-c: #9400FF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    width: auto;
+}
+
+button {
+    font-family: IBM Plex Mono;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--bg-c);
+    color: var(--main-text-c);
+}
